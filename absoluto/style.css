@@ -5,6 +5,7 @@
     border: 1px solid black;
     padding: 20px;
     width: 400px;
+    position: relative;
 }
 
 .red-box {
@@ -16,8 +17,8 @@
 .blue-box {
     background-color: blue;
     position: absolute;
-    top: 20px;
-    left: 50px;
+    bottom: 0;
+    right: 20px;
 }
 
 .green-box {
